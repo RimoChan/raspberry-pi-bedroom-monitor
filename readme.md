@@ -64,6 +64,7 @@
 
 - 互联网http get时间可以在你的舍友过来找你说「今天怎么网这么卡」的时候，把责任推卸给运营商。
 
+然后这里有一个样例可以看: [监控面板的样例](https://snapshots.raintank.io/dashboard/snapshot/QO0xSixMZMV5AIatOAveoIFSnpBgOP8F)
 
 ## 使用方法
 
