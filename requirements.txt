@@ -1,0 +1,11 @@
+numpy~=1.23.5
+smbus2~=0.4.2
+pyyaml~=6.0
+adafruit-circuitpython-sgp30~=3.0.6
+netifaces~=0.11.0
+icmplib~=3.0.3
+prometheus_client~=0.15.0
+scapy~=2.4.5
+librosa~=0.9.2
+pyaudio~=0.2.12
+pybluez~=0.23
