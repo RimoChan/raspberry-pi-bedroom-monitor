@@ -42,8 +42,6 @@ def 上报蓝牙():
         company = 'None'
         if 255 in adv.data_dict:
             company_id = int.from_bytes(adv.data_dict[255][:2], 'little')
-            if company_id in (6, 844):
-                continue
             company = company_identifiers.get(company_id, 'None')
         l.append([adv.address.string, adv._rssi, adv.short_name or adv.complete_name or adv.address.string, company])
     if 'bluetooth_rssi' in gauge_dict:
